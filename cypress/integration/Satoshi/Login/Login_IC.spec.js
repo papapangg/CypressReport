@@ -14,7 +14,7 @@ describe('Login', () => {
     it('Put invalid username', () => {
 
         cy.get(':nth-child(3) > .InputBlock-sc-1449a95-0 > .InputWrapper-sc-1449a95-2 > .Input-sc-1449a95-3')
-            .type('invalid@email.com')
+            .type('invalid@email2.com')
 
     })
 
